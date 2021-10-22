@@ -8,17 +8,20 @@ html {
 }
 nav {
     min-height: 100vh;
-    width: 270px;
+    width: 290px;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: orange;
+    background-color: khaki;
 }
 nav img {
     width: 250px;
-    height: 270px;
+    height: 290px;
     border-radius: 50%;
-    border: 10px solid ;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 nav a {
     color: white;
@@ -30,17 +33,22 @@ nav ul {
 }
 section {
     min-height: 100vh;
-    background-color: yellowgreen;
-    margin-left: 270px;
+    background-color: white;
+    margin-left: 290px;
 }
 .about-us div {
     position: absolute;
     top: 30%;
-    background-color: ivory;
+    background-color: whitesmoke;
     margin: 0 0 0 50px;
 }
 .travel div {
     margin-top: 50px;
+}
+.travel-entries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 h1 {
     color: indigo;
